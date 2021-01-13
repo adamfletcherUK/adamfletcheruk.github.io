@@ -76,10 +76,10 @@
                 <h3>welcome</h3>
 
                 <h1>
-                    Adam Fletcher<br>
-                    Data Scientist <br> <br>
-                    data is <mark>complex</mark>, but <mark>actionable insights</mark> are
-                    priceless.
+                    <p>Adam Fletcher</p>
+                    <p>Data Scientist </p>
+                    <p>data is <mark>complex</mark>, but <mark>actionable insights</mark> are
+                        priceless.</p>
                 </h1>
 
                 <div class="home-content__buttons">
@@ -252,7 +252,75 @@
                         <h5>Equal Experts</h5>
                     </div>
                     <div class="timeline__desc">
-                        <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                        <h6>Predicting the resale price of used machinery: Proof of Concept</h6>
+                        <li>The client wanted to determine factors that influenced the resale price of machines to
+                            better optimise listed prices.</li>
+                        <li>Used random forest regression to predict the price of an asset and how that price changes
+                            over time. The output of which was imported into Power BI via a bespoke API.</li>
+                        <li>Developed a pricing index to show market trends at variable resolutions, utilising
+                            regression to normalise auction sales to reference values.</li>
+                        <li>The business is now able to sell assets faster and at a more appropriate price. They are
+                            also able to predict depreciation price on new assets and factor in price of selling
+                            assets in project costings.</li>
+                        <h6>Predicting the resale price of used machinery: Web App Delivery</h6>
+                        <li>Based on feedback, we changed both the model to a multidimensional non-linear regression
+                            model and the UI was changed from Power BI react to better incorporate new features.</li>
+                        <li>This enabled more explainability and continuity of predictions and ultimately more
+                            customisable model fitting.</li>
+                        <li>Worked with DevOps Engineers to develop data prep, model training and deployment pipelines
+                            in production.</li>
+                        <li>Liaising with Full-Stack developers to create Flask APIs using the regression models in
+                            different ways from single predictions, to predictions over the lifespan of an asset. </li>
+                        <li>Conducted a plethora of validation activities to build user-confidence in predictions
+                            as the industry was typically not data-driven.</li>
+                        <h6>Modelling the cost of debt for delayed payment terms in commercial projects:</h6>
+                        <li>The client wanted to understand how the debt resulting from delayed payments terms affected
+                            final profit of a project it affects company liquidity.</li>
+                        <li>Using incoming and outgoing costs for each project I created a mixed-phase model for
+                            running projects, including the amount of debt accrued and how increased payment terms
+                            affected debt the cost of credit.</li>
+                        <li>With this information, the client restructured their pricing system and was better able to
+                            forecast their liquidity at key times of the year. </li>
+                    <br>
+                    </div>
+                </div> <!-- end timeline__block -->
+
+                <div class="timeline__block">
+                    <div class="timeline__bullet"></div>
+                    <div class="timeline__header">
+                        <p class="timeline__timeframe">2019 - 2020</p>
+                        <h3>Data Analyst</h3>
+                        <h5>Equal Experts</h5>
+                    </div>
+                    <div class="timeline__desc">
+                        <h6>Creating needs-based personas for a job-listing service:</h6>
+                        <li>The client wanted to better understand how users interacted with a job-listing website, with
+                            the aim of personalising user experiences based upon a set of needs they might have.</li>
+                        <li>Working with a UX company we conducted interviews and designed surveys to gather information
+                            about what needs users were experiencing when applying for a job (roughly 100,000
+                            respondents).</li>
+                        <li>The dataset was incomplete to avoid asking respondents too many questions, so Boolean
+                            matrix-factorisation was used to predict user responses for unasked questions, followed by
+                            clustering to group users with similar needs.</li>
+                        <li>The clusters were converted into personas with user stories and the business was now better
+                            able to respond to the user’s needs, improving user retention and paid user numbers.</li>
+                        <li><a href="https://www.equalexperts.com/blog/our-thinking/combining-data-science-and-ux-design-to-create-data-driven-user-personas/">Read the case-study writeup</a></li>
+                        <h6>Reducing the cost of variation in providing a service:</h6>
+                        <li>The client wanted to restructure their national pricing model. But each franchise provided
+                            the same service with minor changes, resulting in differential cost to the business.</li>
+                        <li>Working with a new workflow tracking system, we were able to attribute normal operating
+                            criteria and areas which were operating outside of them.</li>
+                        <li>In a detailed report outlining standard operating procedures I also determined the
+                            cost-saving resulting from implementing the new procedures, which exceeded £2million.</li>
+                        <h6>Migrating a legacy data warehouse to modern infrastructure:</h6>
+                        <li>The client wanted to migrate a legacy SQL server 2000 data warehouse to a cloud solution.</li>
+                        <li>As the system required re-architecture due to the aging technology, we conducted interviews
+                            and workshops to determine the new requirements for the system.</li>
+                        <li>I developed proof of concept ideas for a new architecture using data warehouses and marts
+                            to protect data security and integrity, looking to replace the aging ETL processes.</li>
+                        <li>The client was able to determine the project direction and better understand the risks in
+                            delivering the project.</li>
+                    <br>
                     </div>
                 </div> <!-- end timeline__block -->
 
@@ -264,7 +332,60 @@
                         <h5>Cancer Research UK</h5>
                     </div>
                     <div class="timeline__desc">
-                        <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+                        <h6>Identifying markers leading to chemotherapy resistance in small cell lung cancer:</h6>
+                        <li>The major aim of the project was to develop a blood test, assessing and predicting patients’
+                            response to chemotherapy.</li>
+                        <li>Analysing multiple complex datasets to identify features driving drug-resistance, accounting
+                            for the large patient-specific genetic variations seen in biological datasets.</li>
+                        <li>Processed genetic data and performed clustering to group pre-treated patients as
+                            drug-sensitive or resistant.</li>
+                        <li>Utilised AB testing to compare cohorts and regression to predict drug responses.</li>
+                        <li>Captured and normalised data from ensuring equivalency for statistical analysis and
+                            modelling.</li>
+                        <li>Designed, implemented and tested data analysis pipelines for novel laboratory techniques I
+                            developed.</li>
+                        <li>Utilising R to design data analysis pipelines for novel laboratory methods I have
+                            developed.</li>
+                        <li>Applying statistical tests to assess data integrity, critically analyse data and drive
+                            further hypothesis testing.</li>
+                        <li>Conceptualising and developing novel techniques and analysis methods to better assess and
+                            understand complex problems.</li>
+                        <li>The outcomes included determining potential drivers for chemotherapy resistance which could
+                            prolong the lives of patients.</li>
+
+                    <br>
+                    </div>
+                </div> <!-- end timeline__block -->
+
+                <div class="timeline__block">
+                    <div class="timeline__bullet"></div>
+                    <div class="timeline__header">
+                        <p class="timeline__timeframe">2014 - 2016</p>
+                        <h3>Molecular Diagnostic Scientist</h3>
+                        <h5>Premaitha Health Ltd.</h5>
+                    </div>
+                    <div class="timeline__desc">
+                        <h6>Developing DNA prenatal screening tests for Down Syndrome:</h6>
+                        <li>Developed blood tests that predict the likelihood of Down Syndrome in the foetuses of
+                            expectant mothers.</li>
+                        <li>Uses support vectors to classify samples as either positive or negative for Down
+                            Syndrome.</li>
+                        <li>Determined quality statistics which affected the false-positive and negative rates of the
+                            test and altered acceptance criteria for the test.</li>
+                        <li>Integrated novel technologies and statistical methods into product development pipelines.</li>
+                        <li>The outcomes of which allowed the product to become a certified screening product.</li>
+                        <h6>Implementing a post-market surveillance system to monitor quality statistics:</h6>
+                        <li>Developed a post-market surveillance system to establish and monitor quality control
+                            metrics for the commercial products and partners.</li>
+                        <li>Analysed metadata from internal and customer data to establish suitable quality thresholds
+                            for routine data monitoring and quality control.</li>
+                        <li>Presented monthly data-analysis findings to company board members, ensuring data was
+                            equally interpretable by scientists and non-scientists. </li>
+                        <li>The outcome was the ability to forecast (using local regression) product quality drops and
+                            alert the support team for intervention.</li>
+
+
+                    <br>
                     </div>
                 </div> <!-- end timeline__block -->
 
@@ -276,19 +397,38 @@
                         <h5>The University of Manchester</h5>
                     </div>
                     <div class="timeline__desc">
-                        <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+                        <h6>Using directed evolution and 3D modelling to alter enzyme specificity:</h6>
+                        <li>The goal was to improve a naturally occurring chemical reaction by understanding the
+                            molecular interactions occurring and utilising directed evolution to enhance
+                            functionality.</li>
+                        <li>Developed and built 3D structural models of novel proteins both interrogated their chemical
+                            binding through experimentation and simulations.</li>
+                        <li>Utilised a data-driven approach to direct project progression and further hypothesis
+                            testing.</li>
+                        <li>From this work, I was able to sufficiently alter the binding properties enough to change
+                            the target chemicals in the reaction.</li>
+                    <br>
                     </div>
                 </div> <!-- end timeline__block -->
 
                 <div class="timeline__block">
                     <div class="timeline__bullet"></div>
                     <div class="timeline__header">
-                        <p class="timeline__timeframe">2011 - 2016</p>
-                        <h3>PhD Studentship</h3>
-                        <h5>The University of Manchester</h5>
+                        <p class="timeline__timeframe">2009 - 2011</p>
+                        <h3>Research Scientist</h3>
+                        <h5>QIAGEN</h5>
                     </div>
                     <div class="timeline__desc">
-                        <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+                        <h6>Reducing false-positive rate in cancer mutation detection by introducing known errors:</h6>
+                        <li>The project aim was to improve the stringency of a diagnostic test to determine chemotherapy
+                            options by purposely introducing errors into the product chemistry.</li>
+                        <li>Utilised non-linear regression to show how kinetic properties were affected by the
+                            alterations.</li>
+                        <li>The result was a set of rules which greatly reduced false positives from reaction
+                            bi-products without affecting the desired product. </li>
+                        <li>This ultimately led to the development of a new commercial product and revisions of
+                            existing products.</li>
+                        <br>
                     </div>
                 </div> <!-- end timeline__block -->
 
